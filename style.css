@@ -1,0 +1,154 @@
+/*MAIN*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+* {
+	font-family: Montserrat;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.mainblock {
+	background: url(images/bg1.jpg);
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.current {
+	border-bottom: 1px solid;
+}
+/*MAIN*/
+
+/*NAVBAR*/
+.logo {
+	width: auto;
+	height: 50px;
+}
+
+.logo-navbar {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	background: #333;
+	position: fixed;
+}
+
+ul.navbar {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+}
+
+ul.navbar li {
+	list-style: none;
+}
+
+ul.navbar li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul.navbar li a:hover {
+	border-bottom: 1px solid;
+	transition: 0.15s;
+}
+
+.mainblock h1 {
+	font-size: 100px;
+	color: #fff;
+}
+
+.mainblock h2 {
+	font-size: 45px;
+	width: 70%;
+	color: #fff;
+}
+
+.mainblock button {
+	width: 20%;
+	height: 10%;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	background: red;
+	font-size: 20px;
+}
+
+.content {
+	padding: 60px;
+}
+
+.mycont {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 70px;
+}
+
+.unit {
+	width: 400px;
+}
+
+.unit img {
+	width: 400px;
+	height: auto;
+}
+
+footer {
+	height: 120px;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+footer h3 {
+	color: #fff;
+	text-align: center;
+}
+
+.collapsed {
+	display: none!important;
+}
+
+.files button {
+	border: none;
+	border-left: 10px solid red;
+	background: none;
+	font-size: 20px;
+	padding: 10px;
+	transition: 0.15s;
+}
+
+.files button:hover {
+	border: 0.5px solid red;
+	transition: 0.15s;
+	border-left: 20px solid red;
+	background: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.content-dwn {
+	padding: 60px;
+	padding-top: 80px;
+	height: 100vh;
+}
+
+.file-list {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.file-list a {
+	padding: 15px;
+}
+/*NAVBAR*/
