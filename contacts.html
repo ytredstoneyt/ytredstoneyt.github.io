@@ -5,30 +5,34 @@
 	<title>MrRedstoneYT - Контакты</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 	<div class="logo-navbar">
 		<img src="images/logo.png" alt="LOGO" class="logo">
-		<ul class="navbar">
+		<ul class="navbar" id="navbar">
 			<li><a href="index.html">Главная</a></li>
 			<li><a href="https://www.youtube.com/channel/UCzMiO0Xgpn8RYo2suiVsgRQ">Канал</a></li>
 			<li><a href="dwn.html">Файлы из видео</a></li>
-			<li><a href="contacts.html"  class="current">Контакты</a></li>
+			<li><a href="contacts.html" class="current">Контакты</a></li>
 		</ul>
+		<button onclick="showMenu()" id="burger" class="burger"><img src="images/burger.png" alt="" ></button>
+		<button onclick="hideMenu()" id="burger-close" class="close"><img src="images/close.png" alt=""></button>
 	</div>
 
-	<div class="content-dwn">
+	<div class="contacts">
 		<h1>Контакты</h1>
 		<h2>E-Mails:</h2>
-		<h3>> yt.redstone.mail@gmail.com</h3>
-		<h3>> yt.redstone@outlook.com</h3>
+		<a href="">yt.redstone.mail@gmail.com</a>
+		<a href="">yt.redstone.mail@outlook.com</a>
 		<h2>Соцсети:</h2>
-		<h3>https://vk.com/ytredstone</h3>
+		<a href="https://vk.com/ytredstone">https://vk.com/ytredstone</a>
 	</div>
 
 	<footer>
 		<h3>(C) Copyright 2020 MrRedstoneYT</h3>
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
